@@ -11,6 +11,7 @@ import Auth from './Auth';
 const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'];
 
 const API_URL = 'https://stroy-backend-s7xi.onrender.com/api';
+const DEBUG = true;
 
 // Функция очистки числа от лишних символов
 const cleanNumber = (val) => {
