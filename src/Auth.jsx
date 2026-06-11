@@ -8,7 +8,7 @@ const Auth = ({ onLogin }) => {
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
-    const API_URL = 'http://localhost:5000/api';
+    const API_URL = 'https://stroy-backend-s7xi.onrender.com/api';
 
     const handleSubmit = async (e) => {
         e.preventDefault();
